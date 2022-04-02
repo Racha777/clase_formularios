@@ -1,0 +1,21 @@
+table,td,th{
+    border: 1px double red;
+    border-collapse: collapse;
+    background-color: black;
+}
+
+table{
+    width: 100%;
+}
+
+td{
+    color: yellow;
+}
+
+th{
+    color: white;
+}
+
+body{
+    background-color: blue;
+}
