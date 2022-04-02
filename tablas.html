@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio de tablas</title>
+</head>
+<style>
+    table,td,th{
+        border: 1px double blue;
+        border-collapse: collapse;
+    }
+</style>
+<body>
+    <h1>Ejercicio con tablas</h1>
+    <table style="width: 100%">
+        <th>
+            Nombre
+        </th>
+        <th>
+            Apellido
+        </th>
+        <th colspan="2">
+            dni
+        </th>
+        <tr>
+            <td>Javier</td>
+            <td>Ramos</td>
+            <td>12345678</td>
+            <td>12345678</td>
+        </tr>
+        <tr>
+            <td>Jorge</td>
+            <td>Ramos</td>
+            <td>87654321</td>
+            <td>87654321</td>
+        </tr>
+        <tr>
+            <td>Brigitte</td>
+            <td>Chang</td>
+            <td>77777777</td>
+            <td>77777777</td>
+        </tr>
+    </table>
+    <br>
+    <table style="width: 100%">
+        <tr>
+            <th>Nombre</th>
+            <td>Javier</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Telefono</th>
+            <td>12345678</td>
+        </tr>
+        <td>123456789</td>
+    </table>
+</body>
+</html>
