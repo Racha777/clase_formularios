@@ -1,7 +1,6 @@
 table,td,th{
     border: 1px double red;
     border-collapse: collapse;
-    background-color: black;
 }
 
 table{
@@ -18,4 +17,32 @@ th{
 
 body{
     background-color: blue;
+}
+
+.primero{
+    border: 2px solid aqua;
+}
+
+.segundo{
+    border: 2px solid magenta;
+}
+
+.nombre{
+    background-color: brown;
+}
+
+.telefono{
+    background-color: cornflowerblue;
+}
+
+.fila1{
+    background-color: dimgray;
+}
+
+.fila2{
+    background-color: burlywood;
+}
+
+.fila3{
+    background-color: green;
 }

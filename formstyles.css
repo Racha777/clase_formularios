@@ -1,0 +1,35 @@
+input{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:white;
+}
+
+body{
+    background-image: url(https://wallpaperaccess.com/full/3777437.jpg);
+    color: yellow;
+    text-align: center;
+}
+
+form{
+    background-color:black;
+    width: fit-content;
+    display: inline-block;
+    text-align: left;
+    border-radius: 10px;
+}
+
+footer{
+    color:crimson;
+    font-size: 20px;
+}
+
+.nombre{
+    color: aqua;
+}
+
+.apellido{
+    color:black;
+}
+
+input{
+    border-radius: 5px;
+}

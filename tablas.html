@@ -10,7 +10,19 @@
 
 <body>
     <h1>Ejercicio con tablas</h1>
-    <table>
+    <table class="segundo">
+        <tr class="nombre">
+            <th>Nombre</th>
+            <td>Javier</td>
+        </tr>
+        <tr class="telefono">
+            <th rowspan="2">Telefono</th>
+            <td>12345678</td>
+        </tr>
+        <td>123456789</td>
+    </table>
+    <br>
+    <table class="primero">
         <th>
             Nombre
         </th>
@@ -20,36 +32,24 @@
         <th colspan="2">
             dni
         </th>
-        <tr>
+        <tr class="fila1">
             <td>Javier</td>
             <td>Ramos</td>
             <td>12345678</td>
             <td>12345678</td>
         </tr>
-        <tr>
+        <tr class="fila2">
             <td>Jorge</td>
             <td>Ramos</td>
             <td>87654321</td>
             <td>87654321</td>
         </tr>
-        <tr>
+        <tr class="fila3">
             <td>Brigitte</td>
             <td>Chang</td>
             <td>77777777</td>
             <td>77777777</td>
         </tr>
-    </table>
-    <br>
-    <table style="width: 100%">
-        <tr>
-            <th>Nombre</th>
-            <td>Javier</td>
-        </tr>
-        <tr>
-            <th rowspan="2">Telefono</th>
-            <td>12345678</td>
-        </tr>
-        <td>123456789</td>
     </table>
 </body>
 </html>
